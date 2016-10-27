@@ -45,7 +45,7 @@ def second_number
 	puts 'What is your second number?'
 	begin
 		@second = user_input
-				if @first  == 'quit'
+		if @first  == 'quit'
 			exit
 		end
 		@second = Float(@second)
